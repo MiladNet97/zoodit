@@ -1,0 +1,232 @@
+/*=============================
+    ↓  Dark Mode Style ↓
+=============================*/
+.dark,
+.dark * {
+  background: rgb(28 30 32) !important;
+  color: #d1d1d2 !important;
+  border-color: rgb(119, 110, 98) !important;
+}
+
+.dark__mode {
+  padding: 8px 7px 5px;
+  cursor: pointer;
+  color: #6c757d;
+  font-size: 16px;
+  margin-left: 8px;
+  user-select: none;
+}
+
+.dark__mode::before {
+  content: '\f185';
+}
+
+.dark__mode-is-active::before {
+  content: '\f186';
+  color: #ffce45 !important;
+}
+
+.dark .btn__brand {
+  background: rgb(152, 14, 14) !important;
+  color: #fff !important;
+}
+
+
+.dark .top__navbar-breaking-title,
+.dark .breaking-title-text,
+.dark .breaking-title-icon,
+.dark .breaking-title-icon svg {
+  background: rgb(152, 14, 14) !important;
+  color: #fff !important;
+}
+
+.dark .navbar,
+.dark .navbar *,
+.dark .footer__copyright,
+.dark .footer__copyright * {
+  background: rgb(19 20 21) !important;
+}
+
+.dark .navbar__link-is-active {
+  color: #f05555 !important;
+}
+
+.dark .navbar__subset {
+  border: 1px solid;
+}
+
+.dark .navbar__subset .navbar__item:hover {
+  box-shadow: 0px 3px 15px 0px rgb(208 190 190 / 20%) !important;
+}
+
+.dark .header__search-icon,
+.dark .header__account-icon,
+.dark .header__menu-icon {
+  background: #202324 !important;
+}
+
+.dark .header__search-icon:hover,
+.dark .header__account-icon:hover {
+  background: #333 !important;
+}
+
+.dark .bar1,
+.dark .bar2,
+.dark .bar3 {
+  background: #d1d1d2 !important;
+}
+
+.dark .header__sub_slider-content * {
+  background: transparent !important;
+}
+
+.dark .modal,
+.dark .newsletter,
+.dark .spinner {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+
+.dark .spinner__container,
+.dark .spinner__container * {
+  background: transparent !important;
+}
+
+.dark .modal__close:hover::before {
+  color: rgb(152, 14, 14) !important;
+}
+
+.dark .modal__content .tab button.active {
+  background-color: #333 !important;
+}
+
+.dark .header__menu-icon-is-active .bar1,
+.dark .header__menu-icon-is-active .bar3 {
+  background-color: rgb(152, 14, 14) !important;
+}
+
+.dark .recover__password,
+.dark .errorText {
+  color: #f05555 !important;
+}
+
+.dark .ui-checkbox input:checked~.checkmark {
+  background: #46b2f0 !important;
+}
+
+.dark .post__grid:hover {
+  box-shadow: 2px 5px 25px rgb(133 133 133 / 20%) !important;
+}
+
+.dark .feature__news,
+.dark .feature__news *,
+.dark .last__posts,
+.dark .last__posts *,
+.dark .sidebar,
+.dark .sidebar *,
+.dark .single__post,
+.dark .single__post *,
+.dark .breadcrumb__row,
+.dark .breadcrumb__row *,
+.dark .recover__password__page,
+.dark .recover__password__page *,
+.dark .similar__posts,
+.dark .similar__posts * {
+  background: rgb(23, 24, 25) !important;
+}
+
+.dark .last__posts-header h3,
+.dark .sidebar__header>h3>span {
+  border-bottom-color: rgb(152, 14, 14) !important;
+}
+
+.dark .recover__password__page {
+  background: rgb(28 30 32) !important;
+}
+
+.dark .spinner__bar div {
+  background: rgb(152, 14, 14) !important;
+
+}
+
+.dark .post__cat {
+  background: rgb(152, 14, 14) !important;
+  color: #fff !important;
+}
+
+.dark .pageNumbers a.active,
+.dark .spinner__bar div {
+  background: rgb(152, 14, 14) !important;
+}
+
+.dark .footer,
+.dark .block-sep {
+  border-top-color: rgb(152, 14, 14) !important;
+}
+
+.dark .footer__copyright {
+  color: #aaa !important;
+}
+
+.dark .footer__copyright a {
+  color: #fff !important;
+}
+
+.dark .btn__brand {
+  background: rgb(152, 14, 14) !important;
+  color: #fff !important;
+}
+
+.dark .single__post__tags-item {
+  background: #6c757d !important;
+  color: #fff !important;
+}
+
+.dark .comments__count-title span,
+.dark .commentlist__subset-item,
+.dark .similar__posts-title span,
+.dark .errorBox {
+  border-color: rgb(152, 14, 14) !important;
+}
+
+.dark .commentlist__item,
+.dark .commentlist__item * {
+  background: #202324 !important;
+}
+
+.dark .comments__form .btn__brand:hover,
+.dark .recover__password-form .btn__brand:hover,
+.dark .newsletter__form .btn__brand:hover {
+  background: #6c757d !important;
+}
+
+.dark .study__mode {
+  background: unset !important;
+}
+
+.dark .study__mode-icon {
+  color: #f44336 !important;
+}
+
+.dark .post__loader,
+.dark .post__loader * {
+  background: unset !important;
+}
+
+.dark #progressbarJS {
+  background-color: rgb(152, 14, 14) !important;
+}
+
+
+
+.dark .input__style {
+  background: #202324 !important;
+}
+
+.dark .input__style:focus {
+  border-color: #ccc !important;
+  box-shadow: 0 0px 3px 3px rgb(206 206 206 / 20%) !important;
+}
+
+.dark a:hover {
+  color: #f44336 !important;
+}

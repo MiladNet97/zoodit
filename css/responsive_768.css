@@ -1,0 +1,64 @@
+/*=============================
+    ↓  responsive in max width 768px ↓
+=============================*/
+p.top__navbar-breaking-ticker {
+  font-size: 12px;
+}
+
+.breaking-title-text {
+  display: none;
+}
+
+.breaking-title-icon {
+  display: block;
+}
+
+.header__search_row {
+  max-width: 95%;
+}
+
+.search__box {
+  font-size: 16px;
+  height: 50px !important;
+}
+
+.header__search-form-icon::before,
+.header__search-form-close::before {
+  font-size: 20px;
+}
+
+.header__sub_slider-row {
+  height: 500px;
+}
+
+.header__sub_slider-title {
+  font-size: 18px;
+}
+
+.post__grid {
+  width: 100%;
+}
+
+.feature__news .post__thumb img {
+  height: auto !important;
+}
+
+.footer__top {
+  grid-template-columns: 100%;
+  grid-gap: 20px;
+}
+
+.block__title h3 {
+  font-size: 16px;
+}
+
+.scrollToTop {
+  width: 35px;
+  height: 35px;
+  left: 15px;
+}
+
+.comments__form span {
+  flex-direction: column;
+  gap: 0;
+}
