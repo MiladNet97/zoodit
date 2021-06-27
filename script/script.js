@@ -5,7 +5,7 @@ $(window).on('load', function () {
     setTimeout(function () {
       preloader.fadeOut();
       $('body').addClass('overflow__hidden');
-    }, 1200);
+    }, 200);
   }
   hidePreloader();
 });
@@ -494,12 +494,20 @@ function fixedNav() {
 }
 
 /*===== Dark Theme =====*/
-$('.dark__mode').click(function () {
-  $(this).toggleClass('dark__mode-is-active');
-  $('body').toggleClass('dark');
+if (localStorage.getItem('darkTheme')) {
+  document.body.classList.add(localStorage.getItem('darkTheme'))
+}
 
-});
-
+let darkBtn = document.querySelector('.dark__mode');
+darkBtn.addEventListener('click', () => {
+  if (document.body.classList.contains('dark')) {
+    document.body.classList.remove('dark')
+    localStorage.removeItem('darkTheme', 'dark')
+  } else {
+    document.body.classList.add('dark')
+    localStorage.setItem('darkTheme', 'dark')
+  }
+})
 
 /*===== Rating =====*/
 $('.rating__rate').hover(function () {
